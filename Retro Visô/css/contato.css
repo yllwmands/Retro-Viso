@@ -1,0 +1,75 @@
+div#port{
+	background: url('../img/dog.jpg')no-repeat;
+	background-size: contain;
+    background-position: left;
+    background-color: #7e578c;
+    height: 100vh;
+    position: relative;
+}
+section.interface{
+	max-width: 600px;
+	min-width: 440px;
+	width: 100%;
+	padding: 0 10px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 100px;
+}
+section.interface h1.titulo{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Staat',sans-serif;
+    font-size: 50px;
+	color: #fff;
+	font-weight: 100;
+}
+section.interface div.details{
+	position: relative;
+	margin: 30px 0;
+	box-sizing: border-box;
+	padding: 10px 15px;
+	padding-left: 80px;
+	font-family: 'Poppins',sans-serif;
+	border-radius: 15px;
+	box-shadow: 0 2px 2px rgba(0,0,0,.2);
+	color: #333;
+}
+section.interface div.details img{
+    position: absolute;
+    height: 50px;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+section.interface div.details h1{
+	font-family: 'Staat', sans-serif;
+	font-size: 30px;
+	color: #fff;
+    font-weight: 100;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.4);
+}
+section.interface div.details h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+    font-weight: 100;
+    color: #fff;
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 50px;
+    cursor: pointer;
+}
+section.interface div.details.facebook{
+    background-color: #4267b2;
+}
+section.interface div.details.twitter{
+    background-color: #55acef;
+}
+section.interface div.details.instagram{
+    background:linear-gradient(200deg, #5851db, #833ab4, #c13584, #e1306c);
+}
+section.interface div.details.linkedin{
+    background: #0077b5;
+}

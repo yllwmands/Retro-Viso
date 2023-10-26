@@ -1,0 +1,26 @@
+div#port{
+    background: url('../img/sobre.jpg')no-repeat;
+    height: 100vh;
+	position: relative;
+	background-size: contain;;
+	background-position: 120%;
+	background-color: #fed50b;
+}
+div#port div.sobre{
+	position: absolute;
+	background-color: #fff;
+	max-width: 800px;
+	width: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Poppins',sans-serif;
+	top: 50%;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px rgba(0,0,0,.2);
+}
+div#port div.sobre h1{
+	font-family: 'Staat', sans-serif;
+	font-weight: 100;
+	color: #333;
+}

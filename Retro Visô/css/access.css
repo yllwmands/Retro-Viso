@@ -1,0 +1,65 @@
+div#port{
+    background: url('../img/calvin.jpg')no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    position: relative;
+}
+/* Painel de acesso */
+
+div#acesso{
+    position: absolute;
+    height: 500px;
+    display: flex;
+    left: 50%;
+    top: 200px;
+    transform: translateX(-50%);
+}
+div#acesso div{
+    width: 100%;
+    margin: 0 20px;
+    background-color: #fff;
+    min-width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: fit-content;
+    box-shadow: 0 2px 2px rgba(0,0,0,.2);
+}
+div#acesso div h1{
+    font-family: 'Staat',sans-serif;
+    font-weight: 100;
+    color: #333;
+    font-size: 40px;
+    padding: 15px;
+}
+div#acesso div section.campo{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 25px;
+}
+div#acesso div section.campo input{
+    width: 100%;
+    outline: none;
+    border-radius: 2px;
+    border: solid 1px #999;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 2px;
+}
+div#acesso div section.submit input[type="submit"]{
+    float: left;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    padding: 10px 40px;
+    display: block;
+    border-radius: 2px;
+    background: -webkit-linear-gradient(135deg,  #ff416c, #ff4b2b);
+}
+div#acesso div section.submit a{
+    float: right;
+    font-family: poppins;
+    color: #666;
+    font-size: 14px;
+    
+}
