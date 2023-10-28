@@ -1,0 +1,101 @@
+div#port{
+	background: url('../img/cat.jpg')no-repeat;
+	background-size: contain;
+	background-position: right;
+    height: 100vh;
+	position: relative;
+}
+section.interface h1.titulo{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Staat',sans-serif;
+    font-size: 50px;
+    color: #333;
+}
+section.interface{
+	max-width: 1000px;
+	min-width: 625px;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 100px;
+	padding: 0 30px;
+}
+section.interface div.details{
+	position: relative;
+	background: url('../img/costuraB.jpg')no-repeat;
+	background-position: 105% 30%;
+	background-color: #fed5dd;
+	background-size: 200px;
+	margin: 30px 0;
+	box-sizing: border-box;
+	padding: 10px;
+	padding-right: 10px;
+	padding-left: 80px;
+	font-family: 'Poppins',sans-serif;
+	border-radius: 15px;
+	box-shadow: 0 2px 2px rgba(0,0,0,.2);
+	color: #333;
+}
+section.interface div.details h1{
+	font-family: 'Staat', sans-serif;
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: #333;
+	font-weight: 100;
+}
+section.interface div.details div.icon{
+	position: absolute;
+	background-color: #fff;
+	left: -40px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100px;
+	height: 100px;
+	background-position: center;
+	background-size: 70%;
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	box-shadow: 0 2px 2px rgba(0,0,0,.2);
+}
+section.interface div.details section.horarios{
+	display: flex;
+	color: #fff;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.2);
+}
+section.interface div.details section.horarios div.horario{
+	margin-right:10px;
+	box-shadow: 0 2px 2px rgba(0,0,0,.2);
+	border-radius: 10px;
+}
+section.interface div.details section.horarios div.horario div.dias{
+	display: flex;
+	background-color: #ff7a7a;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 0 5px;
+}
+section.interface div.details section.horarios div.horario p.dia{
+	display: block;
+	width: 45px;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 100%;
+	margin: 0 auto;
+	box-sizing: content-box;
+}
+section.interface div.details section.horarios div.horario p.hora{
+	background: #ffdf89;
+	line-height: 45px;
+	position: relative;
+	text-align: center;
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	padding: 0 10px;
+	color: #333;
+	text-shadow: none;
+}
